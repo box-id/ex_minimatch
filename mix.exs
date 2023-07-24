@@ -28,7 +28,7 @@ defmodule ExMinimatch.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:ex_brace_expansion, "~> 0.0.1"},
+      {:ex_brace_expansion, github: "box-id/ex_brace_expansion", ref: "cdd180f"},
       {:ex_doc, "~> 0.7", only: :dev}
     ]
   end
